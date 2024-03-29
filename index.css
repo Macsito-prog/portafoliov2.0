@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Rakitek";
+    src: url(../fonts/RAKITEK.ttf);
+}
+
+* {
+    font-family: "Rakitek", sans-serif;
+}
+
+.randomImg {
+    min-width: 50px;
+    min-height: 50px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    background-color: white;
+}
+
+.collapse,
+.navbar-collapse>ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.collapse>ul>li,
+.navbar-collapse>ul>li {
+    margin: 0 150px;
+}
+
+
+.navbar {
+    overflow: visible;
+}
+
+.navbar,
+.navbar-expand-lg,
+.bg-body-tertiary,
+.container-fluid {
+    background-color: white !important;
+}
+
+@media(max-width: 1200px) {
+
+    .collapse>ul>li,
+    .navbar-collapse>ul>li {
+        margin: 0 75px;
+    }
+
+    .collapse,
+    .navbar-collapse>ul {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+    }
+}
